@@ -100,7 +100,7 @@ void getNumberFromPlayer(char num[])
 int main()
 {
     char target[4];
-    char guess[4] = "6543";
+    char guess[4];
     unsigned int countGuess = 0;
     createRandomNumber(target);
 
